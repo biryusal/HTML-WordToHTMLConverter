@@ -1,4 +1,4 @@
-export function htmlConvert(htmlWord) {
+export default function htmlConvert(htmlWord) {
 
   if (!htmlWord) {
     throw new Error("Код для конвертирования не может быть пустым."); //если код из ввода пустой, выкидываем ошибку.
